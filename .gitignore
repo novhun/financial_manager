@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Pytest cache
+.pytest_cache/
+
+# Database or cache files (if any)
+*.sqlite3
+*.db
+
+# Node.js dependencies (React dev dependencies)
+frontend/node_modules/
+
+# Optional: React dev build artifacts (keep /build if used for production)
+# frontend/build/  <-- DO NOT IGNORE THIS if you want to keep production build
+
+# React testing and config files (optional)
+frontend/.env
+frontend/.env.*
+frontend/.cache/
+frontend/coverage/
